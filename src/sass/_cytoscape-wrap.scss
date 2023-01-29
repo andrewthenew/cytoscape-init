@@ -1,0 +1,32 @@
+#root {
+  position: relative;
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+  
+  #mainWrap {
+    width: 100%;
+    display: flex;
+  }
+  
+  #left {
+    display: grid;
+    width: 65%;
+  }
+
+  #right {
+    width: 35%;
+    padding: 1rem 1.25rem;
+    background-color: #e0e0e0;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  #root {
+    #right {
+      background-color: #232323;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+#top-row {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  
+  background-color: #f3f3f3;
+}
+
+#csc {
+  display: flex;
+  width: 100%;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  #top-row {
+    background-color: #262626;
+  }
+}
